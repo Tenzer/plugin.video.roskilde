@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addon id='plugin.video.roskilde' version='0.0.0' name='Roskilde Festival videos' provider-name='Jeppe Toustrup'>
+    <requires>
+        <import addon='xbmc.python' version='2.0' />
+    </requires>
+    <extension point='xbmc.python.pluginsource' library='default.py'>
+        <provides>video</provides>
+    </extension>
+    <extension point='xbmc.addon.metadata'>
+        <language>en da</language>
+        <summary lang='en'>Roskilde Festival videos</summary>
+        <summary lang='da'>Videoer fra Roskilde Festival</summary>
+        <description lang='en'>Plays concerts and other videos from the yearly Roskilde Festival in Denmark.</description>
+        <description lang='da'>Se koncerter og andre videoer fra den årlige Roskilde Festival.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
